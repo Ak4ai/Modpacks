@@ -1,0 +1,79 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2859",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "cinema",
+  "version": "1",
+  "author": "",
+  "files": [
+    {
+      "projectID": 308355,
+      "fileID": 2736696,
+      "required": true
+    },
+    {
+      "projectID": 257814,
+      "fileID": 4722163,
+      "required": true
+    },
+    {
+      "projectID": 1040578,
+      "fileID": 5588916,
+      "required": true
+    },
+    {
+      "projectID": 257818,
+      "fileID": 5180387,
+      "required": true
+    },
+    {
+      "projectID": 296289,
+      "fileID": 2919737,
+      "required": true
+    },
+    {
+      "projectID": 869524,
+      "fileID": 4953961,
+      "required": true
+    },
+    {
+      "projectID": 921717,
+      "fileID": 4799982,
+      "required": true
+    },
+    {
+      "projectID": 618217,
+      "fileID": 5424730,
+      "required": true
+    },
+    {
+      "projectID": 291499,
+      "fileID": 3346568,
+      "required": true
+    },
+    {
+      "projectID": 627557,
+      "fileID": 5507475,
+      "required": true
+    },
+    {
+      "projectID": 221826,
+      "fileID": 2996912,
+      "required": true
+    },
+    {
+      "projectID": 435557,
+      "fileID": 4811081,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
