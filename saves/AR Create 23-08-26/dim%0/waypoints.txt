@@ -1,0 +1,14 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:Sarver Bay Station:SB:8270:58:4362:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Rimrock Station:Rr:7979:80:3119:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dryden Creek Station:DC:7016:52:5445:12:false:0:gui.xaero_default:false:0:0:false
+waypoint:Alstora Station:As:5121:39:6736:2:false:0:gui.xaero_default:false:0:0:false
+waypoint:Elkton Coach Service:EC:4746:55:8321:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:Elkton Station:Ek:5052:56:8094:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:Gradling Station:Gd:2868:48:7335:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Culnborough Station:Cb:1216:42:6472:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Brandford Station:Bf:2197:46:6798:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Cranwich Central Station:CC:1988:46:5412:12:false:0:gui.xaero_default:false:0:0:false
+waypoint:Cranwich Central Cargo 1:CG:2001:45:5689:7:false:0:gui.xaero_default:false:0:0:false

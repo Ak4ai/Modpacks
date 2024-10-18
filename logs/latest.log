@@ -1,0 +1,426 @@
+[09:27:35] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
+[09:27:35] [ForkJoinPool-1-worker-3/WARN]: Mod blackwolflibrary uses the version 1.20.1-1.0.4-[FABRIC] which isn't compatible with Loader's extended semantic version format (Invalid prerelease string '1.0.4-[FABRIC]'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:27:35] [ForkJoinPool-1-worker-4/WARN]: Mod design_decor uses the version 0.4.0b_fabric+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:27:35] [ForkJoinPool-1-worker-4/WARN]: Mod moretrapdoor uses the version 1.20.1-1.0.4-[FABRIC] which isn't compatible with Loader's extended semantic version format (Invalid prerelease string '1.0.4-[FABRIC]'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:27:35] [main/INFO]: Loading 132 mods:
+	- athena 3.1.2
+	- blackwolflibrary 1.20.1-1.0.4-[FABRIC]
+	- chipped 3.0.6
+	- construction_deco 1.0
+	- create 0.5.1-f-build.1417+mc1.20.1
+	   |-- com_electronwill_night-config_core 3.6.6
+	   |-- com_electronwill_night-config_toml 3.6.6
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.10-2
+	   |-- forgeconfigapiport 8.0.0
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_accessors 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_base 2.3.2+1.20.1
+	   |    |-- com_electronwill_night-config_core 3.6.6
+	   |    |-- com_electronwill_night-config_toml 3.6.6
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_config 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    |-- porting_lib_fluids 2.3.2+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.2+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_utility 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_client_events 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_entity 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.2+1.20.1
+	   |-- porting_lib_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    |-- porting_lib_fluids 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_networking 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_obj_loader 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_tool_actions 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_transfer 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_fluids 2.3.2+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.62-MC1.20.1
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- createframed 1.4.6+1.20.1
+	- createrailwaysnavigator 1.20.1-0.5.5
+	   \-- dragonlib 1.20.1-2.1.14
+	        |-- architectury 9.1.12
+	        \-- forgeconfigapiport 8.0.0
+	- creativecore 2.11.33
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- decorative_blocks 4.1.3
+	- design_decor 0.4.0b_fabric+1.20.1
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.16.5
+	   \-- mixinextras 0.4.1
+	- framework 0.7.8
+	   |-- com_electronwill_night-config_core 3.6.6
+	   |-- com_electronwill_night-config_toml 3.6.6
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- geckoanimfix 1.0.0
+	- indium 1.0.34+mc1.20.1
+	- iris 1.7.2+mc1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- io_github_douira_glsl-transformer 2.0.1
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- irisflw 1.1.2
+	- java 17
+	- lithium 0.11.2
+	- minecraft 1.20.1
+	- minegate 1.0.0
+	- moretrapdoor 1.20.1-1.0.4-[FABRIC]
+	- polytone 1.20-2.3.2
+	   \-- net_objecthunter_exp4j 0.4.8
+	- railways 1.6.4+fabric-mc1.20.1
+	   \-- mm 2.3
+	- refurbished_furniture 1.0.6
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- sodium 0.5.11+mc1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   \-- fabric-resource-loader-v0 0.11.10+1802ada577
+	- sodiumdynamiclights 1.0.1
+	   \-- forgeconfigapiport 8.0.0
+	- waterframes 2.1.4
+	- watermedia 2.0.71
+	- worldedit 7.2.15+6463-5ca4dff
+	- xaerominimap 24.4.0
+	- xaeroworldmap 1.39.0
+[09:27:36] [main/WARN]: Found 2 non-fabric mods:
+	- createdeco-2.0.2-1.20.1-forge.jar
+	- tl_skin_cape_forge_1.16.5-1.19.jar
+[09:27:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Henrique/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[09:27:36] [main/INFO]: Compatibility level set to JAVA_16
+[09:27:36] [main/INFO]: Compatibility level set to JAVA_17
+[09:27:37] [main/WARN]: Reference map 'BlackwolfLibrary-refmap.json' for blackwolflibrary.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:27:37] [main/WARN]: Reference map 'createframed.refmap.json' for createframed.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:27:37] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[09:27:37] [main/WARN]: Reference map 'MoreTrapdoor-refmap.json' for moretrapdoor.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:27:37] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[09:27:37] [main/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[09:27:37] [main/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[09:27:37] [main/WARN]: Error loading class: software/bernie/geckolib/model/GeoModel (java.lang.ClassNotFoundException: software/bernie/geckolib/model/GeoModel)
+[09:27:37] [main/WARN]: @Mixin target software.bernie.geckolib.model.GeoModel was not found geckoanimfix.fabric.mixins.json:GeoModelMixin from mod geckoanimfix
+[09:27:37] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[09:27:38] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[09:27:38] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[09:27:38] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[09:27:38] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[09:27:38] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[09:27:38] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[09:27:38] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[09:27:38] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[09:27:38] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[09:27:38] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[09:27:38] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[09:27:38] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[09:27:38] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[09:27:38] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[09:27:38] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[09:27:38] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[09:27:38] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[09:27:38] [main/INFO]: Searching for graphics cards...
+[09:27:38] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon RX 5700 XT', adapterType=0x0000030B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\u0407412.inf_amd64_101d3d4e34955a9f\B407018\atig6pxx.dll', openglIcdVersion=32.0.11027.1003}
+[09:27:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09:27:44] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$cni000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[09:28:02] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin from mod refurbished_furniture::handler$djo000$refurbished_furniture$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[09:28:04] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 536 milliseconds
+[09:28:06] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:28:07] [Render thread/INFO]: Setting user: Ak4ai
+[09:28:08] [Render thread/INFO]: Initializing ConstructionDecoMod
+[09:28:10] [Render thread/WARN]: Discarding @Unique public method getOffset in porting_lib_extensions.mixins.json:client.VertexFormatMixin from mod porting_lib_extensions because it already exists in net.minecraft.class_293
+[09:28:12] [Render thread/INFO]: Create addon mod [CREATEFRAMED] is loading alongside Create [0.5.1f]!
+[09:28:12] [Render thread/INFO]: CREATEFRAMED is accessing Porting Lib from the client!
+[09:28:12] [Render thread/INFO]: Custom display sources registered!
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/1d0ac4252cec31ad974c93918eb8736a
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/1d0ac4252cec31ad974c93918eb8736a
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/bbbe938f50123ae1a33b88e7702baeea
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/bbbe938f50123ae1a33b88e7702baeea
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/7ef86e5181523d3db4e2f82200447e8b
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/7ef86e5181523d3db4e2f82200447e8b
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/a8b984aca0483ef78b864bf9f2aea80e
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/a8b984aca0483ef78b864bf9f2aea80e
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/a4b07d566354311dbfb4afc69c314726
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/a4b07d566354311dbfb4afc69c314726
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/685f763aee52352ebea05f6dd442d557
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/685f763aee52352ebea05f6dd442d557
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/43caef3f3dec30568576203d12b10bf7
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/43caef3f3dec30568576203d12b10bf7
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/67724a3b3531326f95653bc1614cf875
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/67724a3b3531326f95653bc1614cf875
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/24de284ed1a534cfb2664200bfb3b1e3
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/24de284ed1a534cfb2664200bfb3b1e3
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/719b62978114348a9d67f5bf04e4ea90
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/719b62978114348a9d67f5bf04e4ea90
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/830f6d92d9633e2f916bf733eb0b9a61
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/830f6d92d9633e2f916bf733eb0b9a61
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/5c835cb0e3b4349ea7abbf594560160f
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/5c835cb0e3b4349ea7abbf594560160f
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/bee93fe017d03b659de7d1bc090ce35a
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/bee93fe017d03b659de7d1bc090ce35a
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/cdcde435daae3fba8a42bb8799687e48
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/cdcde435daae3fba8a42bb8799687e48
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/b977ce0284d33fc79f13f0af88be87d7
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/b977ce0284d33fc79f13f0af88be87d7
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/adecdf88fb7a3b969b956d7830ea92db
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/adecdf88fb7a3b969b956d7830ea92db
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/5bab7ef58bee35718294293ce78aa556
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/5bab7ef58bee35718294293ce78aa556
+[09:28:12] [Render thread/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/76c802420d82316d9a98b73c163ad7ed
+[09:28:12] [Render thread/INFO]: Registering S2C receiver with id createrailwaysnavigator:crn_network/76c802420d82316d9a98b73c163ad7ed
+[09:28:12] [Render thread/ERROR]: No data fixer registered for decorative_blocks:dummy
+[09:28:12] [Render thread/INFO]: Create addon mod [Create: Design n' Decor] is loading alongside Create [0.5.1f]!
+[09:28:12] [Render thread/INFO]: Create: Design n' Decor is accessing Porting Lib from the client!
+[09:28:13] [Render thread/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/69a65f20acde32448da097b16eacfce9
+[09:28:13] [Render thread/INFO]: Registering S2C receiver with id dragonlib:dragonlib_network/69a65f20acde32448da097b16eacfce9
+[09:28:13] [Render thread/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/69d73e101ecb38b59cc59ce369f9f0e6
+[09:28:13] [Render thread/INFO]: Registering S2C receiver with id dragonlib:dragonlib_network/69d73e101ecb38b59cc59ce369f9f0e6
+[09:28:13] [Fire Dragon/INFO]:                            +++ ? +++                             
+[09:28:13] [Fire Dragon/INFO]: ------------------------------------------------------------------
+[09:28:13] [Fire Dragon/INFO]:                   Loaded DRAGONLIB by MRJULSEN!                   
+[09:28:13] [Fire Dragon/INFO]:                      Minecraft Fabric 1.20.1                     
+[09:28:13] [Fire Dragon/INFO]:              Discord: https://discord.gg/AeSbNgvc7f               
+[09:28:13] [Fire Dragon/INFO]:       GitHub: https://github.com/MisterJulsen/MC-DragonLib2       
+[09:28:13] [Fire Dragon/INFO]:  Bug Reports: https://github.com/MisterJulsen/MC-DragonLib2/issues
+[09:28:13] [Fire Dragon/INFO]: ------------------------------------------------------------------
+[09:28:13] [Fire Dragon/INFO]:                            +++ ? +++                             
+[09:28:13] [Render thread/INFO]: Reflections took 136 ms to scan 1 urls, producing 9 keys and 75 values
+[09:28:14] [Render thread/ERROR]: No data fixer registered for seat
+[09:28:14] [Render thread/INFO]: Gecko Anim Fix Initialized
+[09:28:14] [Render thread/INFO]: [MineGate] Initialization of the main class. (Dev-1.0.0)
+[09:28:14] [Render thread/INFO]: [MineGate] Loading of the different types of blocks.
+[09:28:14] [Render thread/INFO]: [MineGate] Loading of the different types of blocks completed.
+[09:28:14] [Render thread/INFO]: [MineGate] Loading of the different types of items.
+[09:28:14] [Render thread/INFO]: [MineGate] Loading of the different types of entity.
+[09:28:14] [Render thread/INFO]: [MineGate] Loading of the different types of block entity.
+[09:28:14] [Render thread/INFO]: [MineGate] J'ai bien chargé les handler type de MineGate...
+[09:28:14] [Render thread/INFO]: [MineGate] Let's see if you have the level to play...
+[09:28:14] [Render thread/INFO]: Definitely not up to no good
+[09:28:14] [Render thread/INFO]: Registering Item Groups for moretrapdoor
+[09:28:14] [Render thread/INFO]: Registering TrapdoorInit for moretrapdoor
+[09:28:14] [Render thread/INFO]: Registering ItemInit for moretrapdoor
+[09:28:14] [Render thread/INFO]: Registered bogey styles from railways
+[09:28:15] [Render thread/INFO]: Registering data fixers
+[09:28:15] [Railways Datafixer Bootstrap/INFO]: 2 Datafixer optimizations took 2 milliseconds
+[09:28:15] [Render thread/INFO]: Registering tracks for Hex Casting
+[09:28:15] [Render thread/INFO]: Registering tracks for Oh The Biomes You'll Go
+[09:28:15] [Render thread/INFO]: Registering tracks for Blue Skies
+[09:28:15] [Render thread/INFO]: Registering tracks for Twilight Forest
+[09:28:15] [Render thread/INFO]: Registering tracks for Biomes O' Plenty
+[09:28:15] [Render thread/INFO]: Registering tracks for Nature's Spirit
+[09:28:15] [Render thread/INFO]: Registering tracks for Dreams and Desires
+[09:28:15] [Render thread/INFO]: Registering tracks for Quark
+[09:28:15] [Render thread/INFO]: Registering tracks for TerraFirmaCraft
+[09:28:15] [Render thread/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[09:28:16] [Render thread/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@b5b3170]
+[09:28:16] [Render thread/INFO]: WorldEdit for Fabric (version 7.2.15+6463-5ca4dff) is loaded
+[09:28:16] [Render thread/INFO]: Welcome to the CREATE RAILWAYS NAVIGATOR mod by MRJULSEN.
+[09:28:16] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[09:28:17] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[09:28:17] [Render thread/INFO]: Iris detected.
+[09:28:17] [Render thread/INFO]: Iris-Flywheel-Compat initialized!
+[09:28:17] [Render thread/INFO]: [MineGate] Initialization of the client class.
+[09:28:17] [Render thread/INFO]: [MineGate] All is well! Good game with MineGate!
+[09:28:17] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[09:28:17] [Render thread/INFO]: Preparing 'WATERMeDIA' on 'Fabric'
+[09:28:17] [Render thread/INFO]: WaterMedia version '2.0.71'
+[09:28:17] [Render thread/INFO]: OS Detected: Windows 10 (x86-64)
+[09:28:17] [Render thread/INFO]: Starting CacheAPI
+[09:28:17] [Render thread/INFO]: Mounted on path 'C:\Users\Henrique\AppData\Local\Temp\watermedia\cache\pictures'
+[09:28:17] [Render thread/INFO]: Module CacheAPI loaded successfully
+[09:28:17] [Render thread/INFO]: Starting PlayerAPI
+[09:28:17] [Render thread/INFO]: Binaries are wrapped
+[09:28:17] [Render thread/WARN]: VLC binaries extraction skipped. Extracted version match with wrapped version
+[09:28:17] [Render thread/INFO]: Processing VideoLAN log files...
+[09:28:17] [Render thread/INFO]: Searching on 'C:\Users\Henrique\AppData\Local\Temp\watermedia\videolan'
+[09:28:19] [Render thread/INFO]: Created new VLC instance from 'C:\Users\Henrique\AppData\Local\Temp\watermedia\videolan' with args: '[--no-quiet, --cr-average=5000, --swscale-mode=0, --network-synchronisation, --network-caching=5000, --live-caching=1000, --file-caching=1000, --aout, directsound,waveout,mmdevice, --vout, direct3d11,direct3d9,glwin32,gl,any, --avcodec-skip-idct=4, --avcodec-fast, --avcodec-hw, d3d11va,dxva2,any, --no-metadata-network-access, --no-file-logging, --http-reconnect]'
+[09:28:19] [Render thread/INFO]: Created new VLC instance from 'C:\Users\Henrique\AppData\Local\Temp\watermedia\videolan' with args: '[--no-quiet, --cr-average=5000, --swscale-mode=0, --network-synchronisation, --network-caching=5000, --live-caching=1000, --file-caching=1000, --aout, directsound,waveout,mmdevice, --vout, direct3d11,direct3d9,glwin32,gl,any, --avcodec-skip-idct=4, --avcodec-fast, --avcodec-hw, d3d11va,dxva2,any, --no-metadata-network-access, --no-file-logging, --http-reconnect, --vout=none]'
+[09:28:19] [Render thread/INFO]: Module PlayerAPI loaded successfully
+[09:28:19] [Render thread/INFO]: Starting ImageAPI
+[09:28:19] [Render thread/INFO]: Loading image resources in a ImageRenderer instance
+[09:28:19] [Render thread/INFO]: Module ImageAPI loaded successfully
+[09:28:19] [Render thread/INFO]: Starting UrlAPI
+[09:28:19] [Render thread/INFO]: Module UrlAPI loaded successfully
+[09:28:19] [Render thread/INFO]: Starting RenderAPI
+[09:28:19] [Render thread/INFO]: Module RenderAPI loaded successfully
+[09:28:19] [Render thread/INFO]: Startup finished
+[09:28:19] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[09:28:19] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[09:28:22] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Cached update file detected, using that!
+[09:28:23] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[09:28:24] [Render thread/INFO]: Debug functionality is disabled.
+[09:28:24] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[09:28:24] [Render thread/WARN]: Unable to resolve shader pack option menu element "ATM_COLOR_MULTS" defined in shaders.properties
+[09:28:24] [Render thread/INFO]: Profile: HIGH (+0 options changed by user)
+[09:28:24] [Render thread/INFO]: irisflw.mixins.iris.json:ProgramSetMixin from mod irisflw->@Invoker[METHOD_PROXY]::callReadProgramSource(Lnet/irisshaders/iris/shaderpack/include/AbsolutePackPath;Ljava/util/function/Function;Ljava/lang/String;Lnet/irisshaders/iris/shaderpack/programs/ProgramSet;Lnet/irisshaders/iris/shaderpack/properties/ShaderProperties;Z)Lnet/irisshaders/iris/shaderpack/programs/ProgramSource; should be static as its target is
+[09:28:24] [Render thread/INFO]: irisflw.mixins.iris.json:ProgramSetMixin from mod irisflw->@Invoker[METHOD_PROXY]::callReadProgramSource(Lnet/irisshaders/iris/shaderpack/include/AbsolutePackPath;Ljava/util/function/Function;Ljava/lang/String;Lnet/irisshaders/iris/shaderpack/programs/ProgramSet;Lnet/irisshaders/iris/shaderpack/properties/ShaderProperties;Lnet/irisshaders/iris/gl/blending/BlendModeOverride;Z)Lnet/irisshaders/iris/shaderpack/programs/ProgramSource; should be static as its target is
+[09:28:25] [Render thread/INFO]: Using shaderpack: Spooklementary_1.1.zip
+[09:28:25] [Render thread/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[09:28:25] [Render thread/INFO]: Hardware information:
+[09:28:25] [Render thread/INFO]: CPU: 6x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+[09:28:25] [Render thread/INFO]: GPU: AMD Radeon RX 5700 XT (Supports OpenGL 3.2.0 Core Profile Context 24.10.27.01.240827)
+[09:28:25] [Render thread/INFO]: OS: Windows 10 (10.0)
+[09:28:26] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (chipped, construction_deco, create, createframed, createrailwaysnavigator, creativecore, decorative_blocks, design_decor, dragonlib, dripstone_fluid_lib, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, flywheel, forgeconfigapiport, framework, indium, iris, irisflw, lithium, milk, minegate, mm, moretrapdoor, polytone, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_lazy_registration, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, railways, reach-entity-attributes, refurbished_furniture, registrate-fabric, sodium, sodiumdynamiclights, waterframes, worldedit, xaerominimap, xaeroworldmap)
+[09:28:26] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[09:28:26] [Worker-Main-1/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[09:28:27] [Worker-Main-3/ERROR]: Invalid path in mod resource-pack design_decor: design_decor:textures/block/zinc_catwalk - kopie.png, ignoring
+[09:28:29] [Worker-Main-3/WARN]: Texture construction_deco:block/guillotine with size 20x20 limits mip level from 4 to 2
+[09:28:29] [Worker-Main-3/WARN]: Texture construction_deco:block/cod with size 19x4 limits mip level from 2 to 0
+[09:28:29] [Worker-Main-3/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[09:28:31] [Render thread/ERROR]: Founded directories but custom loading gif is missing
+[09:28:32] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[09:28:32] [Render thread/INFO]: New world map region cache hash code: -1578492949
+[09:28:32] [Render thread/INFO]: Registered player tracker system: map_synced
+[09:28:32] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[09:28:32] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[09:28:32] [Render thread/INFO]: No Optifine!
+[09:28:32] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[09:28:32] [Render thread/INFO]: Xaero's World Map: Iris found!
+[09:28:32] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[09:28:33] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[09:28:33] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[09:28:33] [Render thread/INFO]: No Optifine!
+[09:28:33] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[09:28:33] [Render thread/INFO]: Xaero's Minimap: Iris found!
+[09:28:34] [Render thread/INFO]: Updated custom language to: (Default)
+[09:28:34] [Worker-Main-5/WARN]: Unable to load model: 'createframed:block/vertical_magenta_stained_framed_glass_pane_noside_alt' referenced from: createframed:vertical_magenta_stained_framed_glass_pane#east=true,north=true,south=true,waterlogged=true,west=true: java.io.FileNotFoundException: createframed:models/block/vertical_magenta_stained_framed_glass_pane_noside_alt.json
+[09:28:36] [Worker-Main-5/WARN]: Unable to load model: 'minecraft:block/template/painted/outer_stairs' referenced from: minegate:painted_iron_block_stairs#facing=north,half=top,shape=straight,waterlogged=true: java.io.FileNotFoundException: minecraft:models/block/template/painted/outer_stairs.json
+[09:28:38] [Worker-Main-5/WARN]: Unable to load model: 'decorative_blocks:blockstate_copy_item#inventory' referenced from: decorative_blocks:blockstate_copy_item#inventory: java.io.FileNotFoundException: decorative_blocks:models/item/blockstate_copy_item.json
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=north,half=top,open=false,powered=false,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=west,half=top,open=true,powered=false,waterlogged=true:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=south,half=top,open=true,powered=true,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=north,half=top,open=true,powered=true,waterlogged=true:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=south,half=bottom,open=false,powered=false,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=north,half=bottom,open=false,powered=false,waterlogged=true:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=east,half=bottom,open=true,powered=false,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=west,half=bottom,open=false,powered=false,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=north,half=bottom,open=true,powered=true,waterlogged=true:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=south,half=top,open=false,powered=true,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=east,half=bottom,open=false,powered=false,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=east,half=top,open=false,powered=false,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=south,half=bottom,open=true,powered=true,waterlogged=true:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=west,half=bottom,open=true,powered=false,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=east,half=top,open=true,powered=true,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:43] [Worker-Main-5/WARN]: Missing textures in model moretrapdoor:s_trapdoor#facing=west,half=top,open=false,powered=false,waterlogged=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/s
+[09:28:44] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[09:28:44] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[09:28:44] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Virtual Speakers (Virtual Speakers for AudioRelay)
+[09:28:44] [Render thread/INFO]: Sound engine started
+[09:28:44] [Render thread/INFO]: Created: 4096x4096x0 minecraft:textures/atlas/blocks.png-atlas
+[09:28:44] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[09:28:44] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[09:28:44] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[09:28:44] [Render thread/INFO]: Created: 64x64x4 refurbished_furniture:textures/atlas/tv_channels.png-atlas
+[09:28:44] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[09:28:44] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[09:28:44] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[09:28:44] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09:28:44] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[09:28:46] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[09:28:47] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
+[09:28:47] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09:28:47] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09:28:48] [Render thread/INFO]: Loaded all shader sources.
+[09:28:48] [Render thread/INFO]: Reloaded Polytone Resources in 4 ms
+[09:28:48] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[09:28:48] [Render thread/INFO]: Successfully reloaded the world map shaders!
